@@ -9,7 +9,7 @@ export default function CountButton({ type, setCount, locked }) {
         return newCount;
       } else {
         const newCount = prev + 1;
-        if (newCount > 5) return 5;
+        // if (newCount > 5) return 5;
         return newCount;
       }
     });
